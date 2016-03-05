@@ -17,7 +17,7 @@
         android:text="Discreate Mathematics"
         android:id="@+id/checkBox"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp" />
@@ -28,7 +28,7 @@
         android:text="Project Management"
         android:id="@+id/checkBox2"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_alignParentStart="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
@@ -43,7 +43,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_below="@+id/checkBox2"
         android:layout_alignParentLeft="true" />
 
@@ -53,7 +53,7 @@
         android:text="Statistical Interference"
         android:id="@+id/checkBox4"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_alignParentStart="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
@@ -68,7 +68,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_below="@+id/checkBox4"
         android:layout_alignParentLeft="true" />
 
@@ -81,7 +81,7 @@
         android:checked="false"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_below="@+id/checkBox5"
         android:layout_alignParentLeft="true" />
 
@@ -92,13 +92,13 @@
         android:id="@+id/checkBox7"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:layout_below="@+id/checkBox6"
         android:layout_alignParentLeft="true" />
 
     <Button
         android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:alpha="0.75"
         android:onClick="onClick"
         android:text="Send"
@@ -106,12 +106,12 @@
         android:textSize="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_alignTop="@+id/button"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/checkBox5" />
 
     <Button
         android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:alpha="0.75"
         android:onClick="cancel_class"
         android:text="Cancel"
@@ -119,8 +119,7 @@
         android:textSize="20dp"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/checkBox7"
+        android:layout_alignTop="@+id/send"
         android:layout_alignStart="@+id/textView" />
 
     <TextView
