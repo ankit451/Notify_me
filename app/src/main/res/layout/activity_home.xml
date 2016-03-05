@@ -11,11 +11,12 @@
     tools:context="myapp.notifyme.Home">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/logo"
         android:src="@drawable/logo"
-        android:layout_above="@+id/open_classes" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="160dp"
@@ -23,10 +24,9 @@
         android:alpha="0.75"
         android:text="Classses"
         android:id="@+id/open_classes"
-        android:layout_marginBottom="170dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:layout_alignTop="@+id/open_groups"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="160dp"
@@ -34,9 +34,10 @@
         android:alpha="0.75"
         android:text="Groups"
         android:id="@+id/open_groups"
+        android:textSize="18dp"
         android:layout_below="@+id/logo"
-        android:layout_alignParentEnd="true"
-        android:textSize="18dp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
 
     <TextView
         android:layout_width="wrap_content"
