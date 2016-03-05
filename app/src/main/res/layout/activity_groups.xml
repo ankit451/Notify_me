@@ -13,6 +13,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="65dp"
+        android:alpha="0.75"
         android:text="Add Team"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
@@ -21,6 +22,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="65dp"
+        android:alpha="0.75"
         android:text="Delete Team"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"

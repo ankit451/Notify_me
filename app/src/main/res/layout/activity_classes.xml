@@ -99,6 +99,7 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="70dp"
+        android:alpha="0.75"
         android:onClick="onClick"
         android:text="Send"
         android:id="@+id/send"
@@ -111,6 +112,7 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="70dp"
+        android:alpha="0.75"
         android:onClick="cancel_class"
         android:text="Cancel"
         android:id="@+id/button"

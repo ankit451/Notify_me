@@ -20,6 +20,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="75dp"
+        android:alpha="0.75"
         android:text="Classses"
         android:id="@+id/open_classes"
         android:layout_marginBottom="170dp"
@@ -30,6 +31,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="75dp"
+        android:alpha="0.75"
         android:text="Groups"
         android:id="@+id/open_groups"
         android:layout_below="@+id/logo"
