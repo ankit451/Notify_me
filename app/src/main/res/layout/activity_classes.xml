@@ -101,7 +101,7 @@
         android:layout_height="60dp"
         android:alpha="0.75"
         android:onClick="onClick"
-        android:text="Send"
+        android:text="Send To"
         android:id="@+id/send"
         android:textSize="20dp"
         android:paddingLeft="10dp"

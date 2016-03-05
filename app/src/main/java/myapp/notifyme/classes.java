@@ -1,5 +1,6 @@
 package myapp.notifyme;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.SmsManager;
@@ -118,10 +119,9 @@ public class classes extends AppCompatActivity {
                 text=text + (i+1) + "y";
         }
 
-        Toast.makeText(classes.this, "Success", Toast.LENGTH_LONG).show();
-        SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage("+918092623139", null, text, null, null);
-        finish();
+        //Toast.makeText(classes.this, "Success", Toast.LENGTH_LONG).show();
+        Intent nex = new Intent(classes.this, contact.class).putExtra("extra",text);
+        startActivity(nex);
     }
     public void cancel_class(View view)
     {

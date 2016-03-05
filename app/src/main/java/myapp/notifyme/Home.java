@@ -32,15 +32,17 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         textAlarmPrompt = (TextView)findViewById(R.id.alarmprompt);
-        String certifiedMobile[]=new String[8];
+        String certifiedMobile[]=new String[10];
         certifiedMobile[0]="9504979576";
         certifiedMobile[1]="9472643276";
         certifiedMobile[2]="8092623139";
         certifiedMobile[3]="9608258644";
-        certifiedMobile[4]="+919504979576";
-        certifiedMobile[5]="+919472643276";
-        certifiedMobile[6]="+918092623139";
-        certifiedMobile[7]="+919608258644";
+        certifiedMobile[4]="9422579130";
+        certifiedMobile[5]="+919504979576";
+        certifiedMobile[6]="+919472643276";
+        certifiedMobile[7]="+918092623139";
+        certifiedMobile[8]="+919608258644";
+        certifiedMobile[9]="+919422579130";
         Uri uriSms = Uri.parse("content://sms/inbox");
         Cursor cursor = getContentResolver().query(uriSms, new String[]{"_id", "address", "date", "body"}, null, null, null);
         cursor.moveToFirst();
@@ -52,7 +54,7 @@ public class Home extends AppCompatActivity {
         // Toast.makeText(MainActivity.this,mobileRecieved,Toast.LENGTH_LONG).show();
         //   String   str = address + ":" + body;
         boolean flag = false;
-        for(int i=0;i<8;i++)
+        for(int i=0;i<10;i++)
         {
             if(certifiedMobile[i].equalsIgnoreCase(mobileRecieved))
             {
