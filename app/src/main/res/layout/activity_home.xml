@@ -87,4 +87,15 @@
         android:layout_alignTop="@+id/about"
         android:layout_toStartOf="@+id/about"
         android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm is set at:"
+        android:id="@+id/alarmprompt"
+        android:layout_marginTop="63dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/open_classes"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
