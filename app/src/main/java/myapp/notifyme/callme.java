@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 
 public class callme extends AppCompatActivity {
     private CheckBox checkBox8, checkBox9, checkBox10,checkBox11, checkBox12, checkBox13, checkBox14, checkBox15, checkBox16, checkBox17;
-    String contact[]={"8092623139","9422579130","9504979576","9472643276","7277677609","8809445084","9608958693","9801033867","8298885376","9097691634"};
+    String contact[]={"8092623139","9608258644","9504979576","9472643276","7277677609","8809445084","9608958693","9801033867","8298885376","9097691634"};
     boolean con[]=new boolean[10];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
