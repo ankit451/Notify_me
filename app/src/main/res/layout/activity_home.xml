@@ -22,7 +22,7 @@
         android:layout_width="160dp"
         android:layout_height="65dp"
         android:alpha="0.75"
-        android:text="Classses"
+        android:text="Classes"
         android:id="@+id/open_classes"
         android:textSize="18dp"
         android:layout_alignTop="@+id/open_groups"
@@ -91,11 +91,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alarm is set at:"
         android:id="@+id/alarmprompt"
-        android:layout_marginTop="63dp"
         android:textSize="20dp"
-        android:layout_below="@+id/open_classes"
+        android:layout_above="@+id/faq"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Call me"
+        android:id="@+id/call_me"
+        android:layout_below="@+id/open_groups"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Who&apos;s online?"
+        android:id="@+id/whose"
+        android:layout_alignTop="@+id/call_me"
+        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>

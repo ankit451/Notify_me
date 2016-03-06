@@ -3,11 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="myapp.notifyme.faq">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Q. How do i use Notify me?
+        It is very simple to use notify me , you just have to select the proper function and contact number and click on appropriate button.
+
+        Q. How can I use it to notify my friends about extra class if he is asleep?
+        You just have to go to group option then select branch and then the friend&apos;s contact number and send notification.
+
+        Q. How can I use the app to know I should email or try to videochat with my friend?
+        You can use Who&apos;s online feature to check which of the friends are online , and then only contact by internet to the friends who are connected to internet.
+
+        Q. How can i request a friend to call me back?
+        You can use the call me friend to get a call from  your friend."
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17dp"
+        android:textColor="#000000" />
 </RelativeLayout>
